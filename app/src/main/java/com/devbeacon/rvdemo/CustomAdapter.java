@@ -38,7 +38,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 
     public void add(String s) {
         mDataSet.add(s);
-        this.notifyItemChanged(mDataSet.size()-1);
+        this.notifyItemInserted(mDataSet.size()-1);
     }
 
     public void remove(int idx) {
