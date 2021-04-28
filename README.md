@@ -1,4 +1,4 @@
-##RecyclerView Demo##
+## RecyclerView Demo ##
 
 Android Demo project for RecyclerView
 
